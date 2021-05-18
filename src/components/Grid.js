@@ -1,9 +1,30 @@
 import React from "react";
+import DataFetching from "./DataFetching";
+import Recipes from "./Recipes";
+import { useState } from "react";
+import { PreviousMap } from "postcss";
 
 export default function Grid() {
+  const [showRecipes, setShowRecipes] = useState(false);
+  const [showResearch, setShowResearch] = useState(false);
+  const [showWorkOuts, setShowWorkOuts] = useState(false);
+
+  // return (
+  //   <div>
+  //     <input type="submit" value="Search" onClick={onClick} />
+  //     {showResults ? <Results /> : null}
+  //   </div>
+  // );
+
+  // const Results = () => (
+  //   <div id="results" className="search-results">
+  //     Some Results
+  //   </div>
+  // );
+
   return (
     <div class="">
-      <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-4 bg-gray-100 p-10 text-center sm:text-left ">
+      <div class="items-start grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-4 bg-gray-100 p-10 text-center sm:text-left ">
         <div class="p-4 bg-gray-50 m-4 rounded-lg hover:shadow-2xl">
           <div class="space-y-4 p-3 ">
             <div class="flow-root bg-gray-50">
@@ -18,15 +39,21 @@ export default function Grid() {
                 blanditiis praesentium voluptatum deleniti atque.
               </div>
               <div class="my-4 py-1 px-1 text-left text-sm text-indigo-600">
-                <div class="rounded-full font-bold py-3 px-6 w-44 bg-green-200 text-gray-900 hover:bg-green-800 hover:text-gray-50">
-                  <a
+                <div class="rounded-full  py-3 px-6 w-44 bg-green-200 text-gray-900 hover:bg-green-800 hover:text-gray-50 ">
+                  <button
+                    onClick={() => setShowRecipes(!showRecipes)}
                     href="https://tailwindcss.com/docs"
-                    class="text-cyan-600 hover:text-cyan-700">
+                    class="text-cyan-600 font-bold hover:text-cyan-700 border-none hover:w-60 focus:outline-none">
                     {" "}
-                    Try the recipes &rarr;{" "}
-                  </a>
+                    Try the recipes &darr;{" "}
+                  </button>
                 </div>
               </div>
+              {showRecipes && (
+                <div class="my-4 p-1 text-left text-md font-medium drop-shadow-sm">
+                  <Recipes />
+                </div>
+              )}
             </div>
           </div>
         </div>
@@ -44,14 +71,21 @@ export default function Grid() {
               </div>
               <div class="my-4 py-1 px-1 text-left text-sm text-indigo-600">
                 <div class="rounded-full font-bold py-3 px-6 w-48 bg-green-200 text-gray-900 hover:bg-green-800 hover:text-gray-50">
-                  <a
+                  <button
+                    onClick={() => setShowResearch(!showResearch)}
                     href="https://tailwindcss.com/docs"
-                    class="text-cyan-600 hover:text-cyan-700">
+                    class="text-cyan-600 hover:text-cyan-700 font-bold focus:outline-none">
                     {" "}
                     Read the research &rarr;{" "}
-                  </a>
+                  </button>
                 </div>
               </div>
+              {showResearch && (
+                <div class="my-4 p-1 text-left text-md font-medium drop-shadow-sm">
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium voluptatum deleniti atque.
+                </div>
+              )}
             </div>
           </div>
         </div>
@@ -71,14 +105,21 @@ export default function Grid() {
               </div>
               <div class="my-4 py-1 px-1 text-left text-sm text-indigo-600">
                 <div class="rounded-full font-bold py-3 px-6 w-44 bg-green-200 text-gray-900 hover:bg-green-800 hover:text-gray-50">
-                  <a
+                  <button
+                    onClick={() => setShowWorkOuts(!showWorkOuts)}
                     href="https://tailwindcss.com/docs"
-                    class="text-cyan-600 hover:text-cyan-700">
+                    class="text-cyan-600 hover:text-cyan-700 font-bold focus:outline-none">
                     {" "}
-                    Try working out &rarr;{" "}
-                  </a>
+                    View Workouts &rarr;{" "}
+                  </button>
                 </div>
               </div>
+              {showWorkOuts && (
+                <div class="my-4 p-1 text-left text-md font-medium drop-shadow-sm">
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium voluptatum deleniti atque.
+                </div>
+              )}
             </div>
           </div>
         </div>

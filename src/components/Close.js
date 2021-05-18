@@ -34,15 +34,9 @@ export default function Close() {
               </div>
 
               <div class="grid grid-cols-3 gap-4 text-left p-10">
-                <div>
-                  ducimus qui blanditiis praesentium voluptatum deleniti atque.
-                </div>
-                <div>
-                  ducimus qui blanditiis praesentium voluptatum deleniti atque.
-                </div>
-                <div>
-                  ducimus qui blanditiis praesentium voluptatum deleniti atque.
-                </div>
+                <div>ducimus qui blanditiis praesentium .</div>
+                <div>ducimus qui atque.</div>
+                <div>blanditiis voluptatum deleniti.</div>
               </div>
 
               <div class="my-4 py-2 pl-8 px-1 text-left text-sm text-indigo-600">
