@@ -1,5 +1,4 @@
 import React from "react";
-import phone from "../icons/Phone.svg";
 
 export default function Scale() {
   return (

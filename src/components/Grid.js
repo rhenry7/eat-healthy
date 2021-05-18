@@ -2,7 +2,6 @@ import React from "react";
 import DataFetching from "./DataFetching";
 import Recipes from "./Recipes";
 import { useState } from "react";
-import { PreviousMap } from "postcss";
 
 export default function Grid() {
   const [showRecipes, setShowRecipes] = useState(false);
