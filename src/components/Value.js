@@ -10,7 +10,7 @@ export default function Value() {
             <div class="flow-root ">
               <div class="text-sm pl-3  font-sm font-bold"></div>
               <div class=" pt-3 pl-7 text-8xl font-medium md:text-8xl  ">
-                Be ready, alert, and present.
+                Enjoy Life.
               </div>
             </div>
             <div class="flow-root rounded">
