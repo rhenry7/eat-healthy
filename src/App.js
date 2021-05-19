@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Card />
-      <DataFetching />
+      {/* <DataFetching /> */}
       <Grid />
       <Value />
       <Scale />

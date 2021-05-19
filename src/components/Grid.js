@@ -1,6 +1,7 @@
 import React from "react";
 import DataFetching from "./DataFetching";
 import Recipes from "./Recipes";
+import Research from "./Research";
 import { useState } from "react";
 
 export default function Grid() {
@@ -50,6 +51,7 @@ export default function Grid() {
               </div>
               {showRecipes && (
                 <div class="my-4 p-1 text-left text-md font-medium drop-shadow-sm">
+                  {/* <DataFetching /> */}
                   <Recipes />
                 </div>
               )}
@@ -75,14 +77,13 @@ export default function Grid() {
                     href="https://tailwindcss.com/docs"
                     class="text-cyan-600 hover:text-cyan-700 font-bold focus:outline-none">
                     {" "}
-                    Read the research &rarr;{" "}
+                    Read the research &darr;{" "}
                   </button>
                 </div>
               </div>
               {showResearch && (
                 <div class="my-4 p-1 text-left text-md font-medium drop-shadow-sm">
-                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                  blanditiis praesentium voluptatum deleniti atque.
+                  <Research />
                 </div>
               )}
             </div>
@@ -109,7 +110,7 @@ export default function Grid() {
                     href="https://tailwindcss.com/docs"
                     class="text-cyan-600 hover:text-cyan-700 font-bold focus:outline-none">
                     {" "}
-                    View Workouts &rarr;{" "}
+                    View Workouts &darr;{" "}
                   </button>
                 </div>
               </div>
