@@ -21,7 +21,7 @@ export default function Contact() {
                             </div> <input type="file" class="h-full w-full opacity-0" name=""/>
                         </div>
                     </div>
-                    <div class="mt-3 text-right"> <a href="#">Cancel</a> <button class="ml-2 h-10 w-32 bg-blue-600 rounded text-white hover:bg-blue-700">Create</button> </div>
+                    <div class="mt-3 rounded-full text-right"> <a href="#">Cancel</a> <button class="ml-2 h-10 w-32 bg-blue-600text-white hover:bg-blue-700">Submit</button> </div>
                 </div>
             </div>
         </div>
