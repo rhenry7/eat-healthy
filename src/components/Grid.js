@@ -63,7 +63,7 @@ export default function Grid() {
           <div class="space-y-4 p-3 ">
             <div class="text-sm text-left font-sm">The Goal</div>
             <div class="flow-root bg-gray-50">
-              <div class=" pt-0 text-8xl text-left font-medium">Be Happy.</div>
+              <div class=" pt-0 text-8xl text-left font-medium">A New Start.</div>
             </div>
             <div class="flow-root rounded">
               <div class="my-4 p-1 text-left text-md font-medium">

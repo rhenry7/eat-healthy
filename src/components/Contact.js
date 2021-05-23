@@ -1,38 +1,10 @@
 import React from "react";
-import screen from "../icons/Screen.svg";
 
-export default function Close() {
+export default function Contact() {
   return (
-    <div class="">
-      <div class="grid p-10 grid-cols-1 md:grid-cols-2">
-        <div class="p-4 m-4 rounded-lg">
-          <div class="space-y-4 p-3">
-            <div class="">
-              <div class=""></div>
-              <div class=" px-15 font-medium ">
-                <img src={screen} alt="" srcset="" style={{ width: 650 }} />
-              </div>
-            </div>
-            <div class="flow-root rounded">
-              <div class="my-4 p-1 text-left text-md font-sm drop-shadow-sm"></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="p-3  m-3 rounded-lg">
-          <div class="space-y-4 p-3">
-            <div class="flow-root">
-              <div class="text-sm pl-3 text-left font-sm font-bold"></div>
-              <div class=" pt-3 pl-3 text-8xl text-left font-medium">
-                Contact Us.
-              </div>
-              <div class=" pt-3 pl-3 text-2xl text-left font-medium">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis itaque perferendis vitae quod vero quas beatae inventore debitis quae!
-              </div>
-            </div>
-
-            <div class="py-10">
-        <div class="max-w-md bg-white rounded-lg overflow-hidden md:max-w-lg">
+  <div>
+    <div class="py-10 bg-gray-100 px-2">
+        <div class="max-w-md mx-auto bg-white rounded-lg overflow-hidden md:max-w-lg">
             <div class="md:flex">
                 <div class="w-full px-4 py-7 text-left">
                     <div class="mb-1"> <span class="text-sm ">First Name</span> 
@@ -54,11 +26,6 @@ export default function Close() {
             </div>
         </div>
       </div>
-
-          </div>
-        </div>
-        
-      </div>
-    </div>
+</div>
   );
 }

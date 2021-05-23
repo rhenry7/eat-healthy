@@ -64,7 +64,7 @@ function DataFetching(props) {
                     />
                   }
                   <div class="font-bold">{post.title}</div>
-                  {post.analyzedInstructions[0].steps[0].step}
+                  {post.analyzedInstructions[0].steps[0]}
                   {/* {console.log(post.analyzedInstructions.steps.step[0])} */}
                 </li>
               </ul>

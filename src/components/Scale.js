@@ -13,7 +13,7 @@ export default function Scale() {
               </div>
             </div>
             <div class="flow-root rounded">
-              <div class="grid grid-cols-2 gap-4 text-left p-8 text-2xl">
+              <div class="grid gap-4 text-left p-8 text-2xl grid-cols-1 md:grid-cols-2">
                 <div>
                   At vero eos et accusamus et iusto odio dignissimos ducimus qui
                   blanditiis praesentium voluptatum deleniti atque corrupti quos
@@ -21,7 +21,7 @@ export default function Scale() {
                   non provident, similique sunt in culpa qui officia deserunt
                   mollitia animi, id est laborum et dolorum fuga.
                 </div>
-                <div class="ml-10">
+                <div class="">
                   Itaque earum rerum hic tenetur a sapiente delectus, ut aut
                   reiciendis voluptatibus maiores alias consequatur aut
                   perferendis doloribus asperiores repell

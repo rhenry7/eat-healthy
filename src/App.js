@@ -6,6 +6,7 @@ import Value from "./components/Value";
 import Scale from "./components/Scale";
 import Close from "./components/Close";
 import DataFetching from "./components/DataFetching";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Value />
       <Scale />
       <Close />
+
     </div>
   );
 }
