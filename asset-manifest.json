@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/eat-healthy/static/css/main.8073a69e.chunk.css",
+    "main.js": "/eat-healthy/static/js/main.f06e6c8f.chunk.js",
+    "main.js.map": "/eat-healthy/static/js/main.f06e6c8f.chunk.js.map",
+    "runtime-main.js": "/eat-healthy/static/js/runtime-main.5dfb238e.js",
+    "runtime-main.js.map": "/eat-healthy/static/js/runtime-main.5dfb238e.js.map",
+    "static/js/2.d074a484.chunk.js": "/eat-healthy/static/js/2.d074a484.chunk.js",
+    "static/js/2.d074a484.chunk.js.map": "/eat-healthy/static/js/2.d074a484.chunk.js.map",
+    "static/js/3.588d4c06.chunk.js": "/eat-healthy/static/js/3.588d4c06.chunk.js",
+    "static/js/3.588d4c06.chunk.js.map": "/eat-healthy/static/js/3.588d4c06.chunk.js.map",
+    "index.html": "/eat-healthy/index.html",
+    "static/css/main.8073a69e.chunk.css.map": "/eat-healthy/static/css/main.8073a69e.chunk.css.map",
+    "static/js/2.d074a484.chunk.js.LICENSE.txt": "/eat-healthy/static/js/2.d074a484.chunk.js.LICENSE.txt",
+    "static/media/Phone.0c9e84cc.svg": "/eat-healthy/static/media/Phone.0c9e84cc.svg",
+    "static/media/Screen.2209ed0e.svg": "/eat-healthy/static/media/Screen.2209ed0e.svg",
+    "static/media/index.css": "/eat-healthy/static/media/food.63538c15.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5dfb238e.js",
+    "static/js/2.d074a484.chunk.js",
+    "static/css/main.8073a69e.chunk.css",
+    "static/js/main.f06e6c8f.chunk.js"
+  ]
+}
